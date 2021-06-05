@@ -1,0 +1,126 @@
+main {
+  text-align: center;
+  vertical-align: center;
+}
+
+div {
+  margin: 10px;
+}
+
+.slicePie {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 80%;
+}
+
+.subheader {
+  padding: 5px;
+  color: white;
+  font-size: 60%;
+  text-align: center;
+}
+
+.pagecontent {
+  padding: 5px;
+  color: white;
+  font-size: 60%;
+  text-align: center;
+}
+
+inputboxcolor {
+  border: white
+}
+
+.contain {
+  margin: auto;
+}
+
+.step {
+  color: white;
+  max-width: xs;
+  margin-left: 0px;
+}
+
+.guesses {
+  color: white;
+  font: bold;
+  text-align: center;
+}
+
+.results {
+  color: white;
+  font: bold;
+  text-align: center;
+}
+
+.nextButton{
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.cell {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.MuiStep-alternativeLabel {
+  color: #ffffff;
+  background-color: #2E2E2E;
+}
+
+.MuiStepLabel-label {
+  color: #ffffff;
+  background-color: #2E2E2E;
+}
+
+.MuiStepLabel-root {
+  color: #ffffff;
+  background-color: #2E2E2E;
+}
+
+.MuiStepLabel-iconContainer {
+  color: #ffffff;
+  background-color: #2E2E2E;
+}
+
+.MuiStepLabel-labelContainer {
+  color: #ffffff; 
+  background-color: #2E2E2E;
+}
+
+.MuiStepLabel-horizontal {
+  color: #ffffff;
+  background-color: #2E2E2E;
+}
+
+.MuiTextField-root {
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.step{
+  color: #ffffff;
+  background-color: #2E2E2E;
+}
+
+@media only screen and (min-width: 768px) {
+  .pseudoform {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  label,
+  .form-label,
+  .form-button {
+    margin: 10px 15px;
+  }
+
+  .form-button {
+    align-self: flex-end;
+    margin: 10px 30px;
+  }
+}
