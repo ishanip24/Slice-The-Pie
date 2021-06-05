@@ -1,2 +1,6 @@
 # Slice-The-Pie
 Say you got to run the University. First, learn about your funding sources, with a guessing game. How much comes from taxpayers? Tuition? Philanthropy and endowment? Then, you get to allocate money to things like buildings, undergraduate teaching, and financial aid. Finally, see how well your choices match the ones the real Provost made. Implemented with React and D3.
+
+There are three phases: income, expenses, and comparison. The first two both work the same. The user gets a blank pie chart - a dark circle - and a table of categories to fill in. As long as the total dosn't add up to 100, they see corresponding pieces of pie partially covering the circle. If they try to give numbers adding up to more than 100, it automatically makes the last number they entered smaller so that the total is 100, and the pie chart is complete. If they then want to add more pieces, they have to make some of the ones they already have smaller.
+
+When they hit "Next" after the first phase (Revenue), they get to the second phase (Expenditures). They can build up a similar pie chart. Then, when they hit "Compare", they get to the third and fourth screens, comparing their choices with the actual revenues and expenditures.
